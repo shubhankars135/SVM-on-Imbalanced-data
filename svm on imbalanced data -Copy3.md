@@ -16,6 +16,7 @@ import matplotlib.pyplot as plt
 
 ```python
 data = pd.read_csv('/home/shubhankar/Documents/csv/creditcard.csv')
+df.set_index('NAME', inplace=True)
 data.head()
 ```
 
